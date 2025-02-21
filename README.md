@@ -62,17 +62,15 @@ git clone --recurse-submodules https://github.com/your-repo/AI-Powered-Postal-Sy
 cd AI-Powered-Postal-System
 
 
-### 2️⃣ Install dependencies  
-
-#### **Backend (Django)**
+2️⃣ Install dependencies
+Backend (Django)
 ```bash
 cd neural_nodes_backend
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
 
-
-#### **Frontend (React + Vite)**
+Frontend (React + Vite)
 ```bash
 cd ../neural_nodes_frontend
 npm install
